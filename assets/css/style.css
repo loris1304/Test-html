@@ -1,0 +1,374 @@
+body
+{
+    background-color: #1a1f23;
+}
+
+#container
+{
+    width: 950px;
+    margin: auto;
+    background-color: #000;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+header
+{
+    color: #40c1a6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: url('../img/separator.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+#logo img
+{
+    width: 190px;
+    padding: 10px 0px 0px 10px;
+}
+
+#logo h1
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    color: #40c1a6;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+nav :hover
+{
+    color: #99e9d9;
+    border-bottom: 3px solid #99e9d9;
+}
+
+#solutions p
+{
+    color: #fff;
+    font-size: 0.5em;
+}
+
+#solutions
+{
+    width: 30%;
+}
+
+footer h1 
+{
+    color: #40c1a6;
+}
+
+footer 
+{
+    display: flex;
+    background: url(../img/big_separator.png) repeat-x ;
+}
+
+#image_footer img
+{
+    width: 125px;
+    height: 60px;
+    padding-right: 3px;
+
+}
+#image_footer
+{
+    width: 70%;
+}
+
+#image_footer a 
+{
+    text-decoration: none;
+}
+
+#banner
+{
+    background-image: url(../img/valhalla_banner.png);
+    height: 170px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#bouton
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+#bouton input
+{
+    background-color: #40c1a6;
+    box-shadow: 10px;
+}
+
+#logo_pres 
+{
+    display: flex;
+    align-items: baseline;
+}
+
+#logo_pres img
+{
+    width: 22px;
+    margin: 20px 10px 0px 10px;
+    height: 22px;
+}
+
+#logo_pres h1
+{
+    color: #40c1a6;
+}
+
+section
+{
+    display: flex;
+}
+
+article 
+{
+    width: 70%;
+    color: #fff;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+aside p
+{
+    color: #fff;
+    text-align: justify;
+}
+
+aside h1
+{
+    text-align: center;
+    color: #40c1a6;
+
+}
+
+aside 
+{
+    width: 30%;
+    background-color: #545f67;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+aside img
+{
+    width: 100px;
+}
+
+/*----------------------- Contact-------------------*/
+textarea
+{
+	resize: none;
+	background-color: #99e9d9;
+	border-radius: 4px;
+	margin: 5px 0px 0px 0px;
+	font-family: 'Trebucher MS', Arial, sans-serif;
+}
+
+form
+{
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 0px 0px 25px;
+}
+
+optgroup
+{
+	font-style: italic;
+}
+
+select
+{
+	background-color: #99e9d9;
+	border-radius: 4px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 5px;
+}
+
+input
+{
+	margin: 4px 0px 5px 0px;
+	background-color: #99e9d9;
+	border-radius: 4px;
+	padding: 5px 0px 5px 5px;
+}
+
+#submit input
+{
+    color: #fff;
+    background-color: #03987b;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/*--------------- univers---------------*/
+#raventhorpe
+{
+    color: #40c1a6;
+}
+
+#raventhorpe img 
+{
+    width: 250px;
+    padding: 10px;
+}
+
+.img_uni
+{
+    display: flex;
+    justify-content: center;
+}
+
+#est_anglie
+{
+    color: #40c1a6;
+}
+
+#est_anglie img
+{
+    width: 250px;
+    padding: 10px;
+}
+
+#winchester
+{
+    color: #40c1a6;
+
+}
+
+#winchester img
+{
+    width: 250px;
+    padding: 10px;
+}
+
+#northumbrie
+{
+    color: #40c1a6;
+}
+
+#northumbrie img
+{
+    width: 250px;
+    padding: 10px;
+}
+
+
+/*---------------personnages--------*/
+
+.perso_l
+{
+    display: flex;
+    align-items: center;
+}
+
+.perso_l img
+{
+    width: 120px;
+    padding-left: 10px;
+}
+
+.text_perso p
+{
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text_perso h2
+{
+    color: #40c1a6;
+    padding-left: 10px;
+
+}
+
+.perso_r
+{
+    display: flex;
+    align-items: center;
+}
+
+.perso_r img
+{
+    width: 120px;
+    justify-content: flex-end;
+}
+
+/*----------animaux--------------*/
+
+.an
+{
+    display: flex;
+    color: #40c1a6;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_an img
+{
+    width: 400px;
+}
+
+
+/*---------------table------------*/
+
+table
+{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 125px;
+	margin-top: 15px;
+}
+
+th
+{
+	color: white;
+	text-align: left;
+	background-color: #384046;
+	padding: 10px  2px 10px 7px;
+}
+
+td
+{
+	color: #fff;
+	padding: 10px  2px 10px 7px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #03987b;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #66d5bf;
+}
